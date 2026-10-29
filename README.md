@@ -1,16 +1,20 @@
-# 12-Week Winter Base Block for intervals.icu
+# 12-Week Indoor Cycling + Easy Running Base Block for intervals.icu
 
-Indoor cycling on weekdays, long rides on weekends, plus a gradual return to easy running.
-84 workouts, Mon Oct 26, 2026 to Sun Jan 17, 2027.
+An example 12-week winter base plan for cyclists who want to ride indoors on weekdays, do long rides on weekends, and rebuild an easy running base alongside. The plan is delivered as ready-to-import intervals.icu workouts, plus scripts to load them into your calendar.
 
-## Files
+- 84 workouts over 12 weeks (48 rides, 36 runs)
+- Roughly 5.5 to 9.3 hours of riding and 65 to 150 minutes of running per week
+- Bike intensity is prescribed as a percentage of FTP, run intensity as a percentage of max heart rate, so it scales to any athlete
+- The first run is 20 minutes; running volume builds gradually, with deload weeks at 4, 8 and 12
+
+## Repository contents
 
 | File | Purpose |
 |---|---|
 | `intervals_plan_12wk.json` | All 84 workouts (dates, names, workout text, IDs). Source of truth for the scripts. |
 | `upload_to_intervals.py` | Adds the workouts to your intervals.icu calendar via the API. Skips ones already there. |
 | `update_intervals.py` | Rewrites descriptions of workouts already in your calendar when the JSON changes. |
-| `plan_overview.csv` | One row per session (date, day, type, name, minutes) for a quick sanity check. |
+| `plan_overview.csv` | One row per session (date, day, type, name, minutes) for a quick overview. |
 
 ## Weekly structure
 
@@ -20,7 +24,7 @@ Indoor cycling on weekdays, long rides on weekends, plus a gradual return to eas
 | Tue | Indoor sweet spot |
 | Wed | Easy run (longest of the week) |
 | Thu | Indoor tempo, then threshold, then short VO2 |
-| Fri | Easy run (short, day before the long ride) |
+| Fri | Easy run (short, the day before the long ride) |
 | Sat | Long ride: mostly Z2 with sweet spot blocks late |
 | Sun | Long steady Z2 ride |
 
@@ -43,17 +47,30 @@ Weeks 4, 8 and 12 are deloads.
 | 11 | 1x90 SS | 6x5 VO2 | 3:30 | 2:30 | 45/65/40 |
 | 12 | 2x20 SS | easy spin | 2:15 | 1:30 | 35/45/35 |
 
-Tuesday and Thursday sessions include warmup, rest and cooldown, so some run longer than the
-bike-hours estimate in the original plan (peak weeks are about 9.3 h of riding).
+SS = sweet spot. Tuesday and Thursday sessions include warmup, rest and cooldown, so some run longer than the headline durations suggest. Peak weeks are about 9.3 hours of riding plus 2 to 2.5 hours of running.
 
-## Before you import
+## Intensity reference
 
-Set these in intervals.icu so the workouts calculate correctly:
+| Work | Target |
+|---|---|
+| Z2 / endurance rides | 62% FTP, HR roughly at or below 75% of max |
+| Sweet spot | 90% FTP |
+| Tempo | 82% FTP |
+| Threshold | 98% FTP |
+| VO2 intervals | 110% FTP |
+| Easy runs | 50-73% of max HR, conversational effort; let HR lead, not pace |
 
-- **FTP: 244 W** (Ride settings). Bike steps are %FTP: sweet spot 90%, tempo 82%, threshold 98%, VO2 110%, Z2 62%.
-- **Max HR: ~202 bpm** (Run settings). Runs are written as `50-73% HR`, a ceiling of about 148 bpm.
+This block is base only: no strides, tempo or race-pace running. Run/walk is fine in weeks 1-3 if calves or shins complain.
 
-## Upload to your calendar
+## Requirements
+
+- An [intervals.icu](https://intervals.icu) account
+- Python 3 (the scripts use only the standard library, nothing to install)
+- Your **FTP** set under Ride settings, and your **max HR** set under Run settings, so percentage targets calculate correctly
+
+## Usage
+
+### Upload to your calendar
 
 1. In intervals.icu, open **Settings > Developer Settings** and copy your API key and athlete ID (looks like `i123456`).
 2. Set environment variables:
@@ -66,13 +83,30 @@ Set these in intervals.icu so the workouts calculate correctly:
    python3 upload_to_intervals.py --dry-run
    python3 upload_to_intervals.py
    ```
-4. Open your calendar at Oct 26 and check week 1 before trusting the rest.
 
-The scripts use only the Python standard library (no installs).
+Each workout has an `external_id`, so re-running the upload skips workouts that are already in your calendar rather than duplicating them.
 
-## Editing the plan after upload
+Treat your API key like a password: don't commit it or put it in a file in the repo.
 
-Re-running `upload_to_intervals.py` will not change workouts already in your calendar, because it skips matching IDs. To change them:
+### Changing the start date
+
+Dates are fixed in `intervals_plan_12wk.json` (week 1 starts Monday, Oct 26, 2026). To start on a different Monday, shift every `start_date_local` value by the same whole number of weeks before uploading. For example, to move the plan forward by 7 days:
+
+```python
+import json, datetime as dt
+shift = dt.timedelta(days=7)
+events = json.load(open("intervals_plan_12wk.json"))
+for e in events:
+    d = dt.datetime.fromisoformat(e["start_date_local"]) + shift
+    e["start_date_local"] = d.isoformat()
+json.dump(events, open("intervals_plan_12wk.json", "w"), indent=1)
+```
+
+Keep the shift a multiple of 7 so the weekly structure stays on the right days.
+
+### Editing the plan after upload
+
+`upload_to_intervals.py` will not change workouts already in your calendar, because it skips matching IDs. To change them:
 
 1. Edit the `description` text in `intervals_plan_12wk.json`.
 2. Preview and apply only the affected workouts:
@@ -80,17 +114,16 @@ Re-running `upload_to_intervals.py` will not change workouts already in your cal
    python3 update_intervals.py --match -run --dry-run
    python3 update_intervals.py --match -run
    ```
-   `--match` filters on the workout ID (`-run`, `-ss`, `-thu`, `-sat-long`, `-sun-z2`). Omit it to update every workout whose text differs.
 
-`update_intervals.py` overwrites matched descriptions, including any edits you made by hand in intervals.icu.
+`--match` filters on the workout ID (`-run`, `-ss`, `-thu`, `-sat-long`, `-sun-z2`). Omit it to update every workout whose text differs. The update overwrites matched descriptions, including any edits you made by hand in intervals.icu.
 
-### Workout ID format
+### Workout IDs
 
-`winter26-W{week}-{day}-{type}`, for example `winter26-W07-tue-ss` or `winter26-W03-fri-run`.
+IDs follow `winter26-W{week}-{day}-{type}`, for example `winter26-W07-tue-ss` or `winter26-W03-fri-run`.
 
-### Workout text syntax
+## Workout text syntax
 
-Steps start with `-`, repeats are a `Nx` header line, ramps use `ramp lo-hi%`:
+Workouts use the intervals.icu text format. Steps start with `-`, repeats are an `Nx` header line, and ramps use `ramp lo-hi%`:
 
 ```
 Warmup
@@ -104,11 +137,9 @@ Cooldown
 - 5m 50%
 ```
 
-Run steps use heart rate, e.g. `- 25m 50-73% HR`. A single value like `73% HR` is read as a target, not a ceiling, so keep a range.
+Run steps use heart rate, e.g. `- 25m 50-73% HR`. A single value like `73% HR` is read as a target rather than a ceiling, so keep a range.
 
-## Pacing guide
+## Notes
 
-- **Z2 rides:** about 62% FTP (~150 W), HR at or below about 140 bpm.
-- **Easy runs:** about 10:45-11:30/mi, HR at or below about 148 bpm. Let HR lead; run/walk in weeks 1-3 if calves or shins complain.
-- **No run intensity** (strides, tempo, race pace) in this block. It is base only.
-- If total load becomes too much, shorten the Sunday ride first and leave the runs alone.
+- This plan is a general template, not personalised coaching. Adjust volume and intensity to your own fitness, schedule and recovery.
+- If the total load is too much, shorten the Sunday ride first and leave the runs alone.
