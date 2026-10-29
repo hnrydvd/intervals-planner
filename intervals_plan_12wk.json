@@ -1,0 +1,674 @@
+[
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-10-26T12:00:00",
+  "type": "Run",
+  "name": "W01 Mon Easy Run 20min",
+  "description": "Easy run\n- 20m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead. Run/walk freely if calves or shins complain.",
+  "external_id": "winter26-W01-mon-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-10-27T17:30:00",
+  "type": "Ride",
+  "name": "W01 Sweet Spot 2x20",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nSweet spot 2x\n- 20m 90%\n- 5m 55%\n\nEndurance\n- 8m 62%\n\nCooldown\n- 5m 50%\n\nSweet spot = ~90% FTP. Steady, controlled; fuel the session.",
+  "external_id": "winter26-W01-tue-ss"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-10-28T12:00:00",
+  "type": "Run",
+  "name": "W01 Wed Easy Run 25min",
+  "description": "Easy run\n- 25m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead. Run/walk freely if calves or shins complain.",
+  "external_id": "winter26-W01-wed-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-10-29T17:30:00",
+  "type": "Ride",
+  "name": "W01 Tempo 3x10",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nTempo 3x\n- 10m 82%\n- 5m 55%\n\nCooldown\n- 5m 50%\n\nTempo ~82% FTP: comfortably hard, steady.",
+  "external_id": "winter26-W01-thu"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-10-30T12:00:00",
+  "type": "Run",
+  "name": "W01 Fri Easy Run 20min",
+  "description": "Easy run\n- 20m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead. Run/walk freely if calves or shins complain.",
+  "external_id": "winter26-W01-fri-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-10-31T09:00:00",
+  "type": "Ride",
+  "name": "W01 Long Ride 2h30 + SS 2x15",
+  "description": "Warmup\n- 15m ramp 50-65%\n\nEndurance\n- 35m 62%\n\nSweet spot 2x\n- 15m 90%\n- 5m 62%\n\nEndurance\n- 55m 62%\n\nCooldown\n- 5m 50%\n\nMostly endurance (~62% FTP, HR <= ~140) with sweet spot blocks late in the ride. Eat and drink every 20 min.",
+  "external_id": "winter26-W01-sat-long"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-01T09:00:00",
+  "type": "Ride",
+  "name": "W01 Z2 Endurance 2h00",
+  "description": "Warmup\n- 10m ramp 50-62%\n\nEndurance\n- 105m 62%\n\nCooldown\n- 5m 50%\n\nSteady Z2 (~62% FTP, HR <= ~140). Keep it boring.",
+  "external_id": "winter26-W01-sun-z2"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-02T12:00:00",
+  "type": "Run",
+  "name": "W02 Mon Easy Run 25min",
+  "description": "Easy run\n- 25m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead. Run/walk freely if calves or shins complain.",
+  "external_id": "winter26-W02-mon-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-03T17:30:00",
+  "type": "Ride",
+  "name": "W02 Sweet Spot 2x25",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nSweet spot 2x\n- 25m 90%\n- 5m 55%\n\nCooldown\n- 5m 50%\n\nSweet spot = ~90% FTP. Steady, controlled; fuel the session.",
+  "external_id": "winter26-W02-tue-ss"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-04T12:00:00",
+  "type": "Run",
+  "name": "W02 Wed Easy Run 30min",
+  "description": "Easy run\n- 30m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead. Run/walk freely if calves or shins complain.",
+  "external_id": "winter26-W02-wed-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-05T17:30:00",
+  "type": "Ride",
+  "name": "W02 Tempo 4x10",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nTempo 4x\n- 10m 82%\n- 5m 55%\n\nCooldown\n- 5m 50%\n\nTempo ~82% FTP: comfortably hard, steady.",
+  "external_id": "winter26-W02-thu"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-06T12:00:00",
+  "type": "Run",
+  "name": "W02 Fri Easy Run 25min",
+  "description": "Easy run\n- 25m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead. Run/walk freely if calves or shins complain.",
+  "external_id": "winter26-W02-fri-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-07T09:00:00",
+  "type": "Ride",
+  "name": "W02 Long Ride 2h45 + SS 2x20",
+  "description": "Warmup\n- 15m ramp 50-65%\n\nEndurance\n- 40m 62%\n\nSweet spot 2x\n- 20m 90%\n- 5m 62%\n\nEndurance\n- 55m 62%\n\nCooldown\n- 5m 50%\n\nMostly endurance (~62% FTP, HR <= ~140) with sweet spot blocks late in the ride. Eat and drink every 20 min.",
+  "external_id": "winter26-W02-sat-long"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-08T09:00:00",
+  "type": "Ride",
+  "name": "W02 Z2 Endurance 2h00",
+  "description": "Warmup\n- 10m ramp 50-62%\n\nEndurance\n- 105m 62%\n\nCooldown\n- 5m 50%\n\nSteady Z2 (~62% FTP, HR <= ~140). Keep it boring.",
+  "external_id": "winter26-W02-sun-z2"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-09T12:00:00",
+  "type": "Run",
+  "name": "W03 Mon Easy Run 30min",
+  "description": "Easy run\n- 30m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead. Run/walk freely if calves or shins complain.",
+  "external_id": "winter26-W03-mon-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-10T17:30:00",
+  "type": "Ride",
+  "name": "W03 Sweet Spot 3x20",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nSweet spot 3x\n- 20m 90%\n- 5m 55%\n\nCooldown\n- 5m 50%\n\nSweet spot = ~90% FTP. Steady, controlled; fuel the session.",
+  "external_id": "winter26-W03-tue-ss"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-11T12:00:00",
+  "type": "Run",
+  "name": "W03 Wed Easy Run 35min",
+  "description": "Easy run\n- 35m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead. Run/walk freely if calves or shins complain.",
+  "external_id": "winter26-W03-wed-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-12T17:30:00",
+  "type": "Ride",
+  "name": "W03 Tempo 3x15",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nTempo 3x\n- 15m 82%\n- 5m 55%\n\nCooldown\n- 5m 50%\n\nTempo ~82% FTP: comfortably hard, steady.",
+  "external_id": "winter26-W03-thu"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-13T12:00:00",
+  "type": "Run",
+  "name": "W03 Fri Easy Run 30min",
+  "description": "Easy run\n- 30m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead. Run/walk freely if calves or shins complain.",
+  "external_id": "winter26-W03-fri-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-14T09:00:00",
+  "type": "Ride",
+  "name": "W03 Long Ride 3h00 + SS 3x15",
+  "description": "Warmup\n- 15m ramp 50-65%\n\nEndurance\n- 40m 62%\n\nSweet spot 3x\n- 15m 90%\n- 5m 62%\n\nEndurance\n- 60m 62%\n\nCooldown\n- 5m 50%\n\nMostly endurance (~62% FTP, HR <= ~140) with sweet spot blocks late in the ride. Eat and drink every 20 min.",
+  "external_id": "winter26-W03-sat-long"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-15T09:00:00",
+  "type": "Ride",
+  "name": "W03 Z2 Endurance 2h15",
+  "description": "Warmup\n- 10m ramp 50-62%\n\nEndurance\n- 120m 62%\n\nCooldown\n- 5m 50%\n\nSteady Z2 (~62% FTP, HR <= ~140). Keep it boring.",
+  "external_id": "winter26-W03-sun-z2"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-16T12:00:00",
+  "type": "Run",
+  "name": "W04 Mon Easy Run 25min",
+  "description": "Easy run\n- 25m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead. Deload week: keep it relaxed.",
+  "external_id": "winter26-W04-mon-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-17T17:30:00",
+  "type": "Ride",
+  "name": "W04 Sweet Spot 2x20",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nSweet spot 2x\n- 20m 90%\n- 5m 55%\n\nCooldown\n- 5m 50%\n\nSweet spot = ~90% FTP. Steady, controlled; fuel the session.",
+  "external_id": "winter26-W04-tue-ss"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-18T12:00:00",
+  "type": "Run",
+  "name": "W04 Wed Easy Run 30min",
+  "description": "Easy run\n- 30m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead. Deload week: keep it relaxed.",
+  "external_id": "winter26-W04-wed-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-19T17:30:00",
+  "type": "Ride",
+  "name": "W04 Easy Spin 45",
+  "description": "Easy spin\n- 5m ramp 45-55%\n- 40m 55%\n\nEasy spin, legs only. HR well below Z2 ceiling.",
+  "external_id": "winter26-W04-thu"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-20T12:00:00",
+  "type": "Run",
+  "name": "W04 Fri Easy Run 25min",
+  "description": "Easy run\n- 25m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead. Deload week: keep it relaxed.",
+  "external_id": "winter26-W04-fri-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-21T09:00:00",
+  "type": "Ride",
+  "name": "W04 Long Ride 2h00 (Z2 deload)",
+  "description": "Warmup\n- 15m ramp 50-65%\n\nEndurance\n- 100m 62%\n\nCooldown\n- 5m 50%\n\nMostly endurance (~62% FTP, HR <= ~140) with sweet spot blocks late in the ride. Eat and drink every 20 min.",
+  "external_id": "winter26-W04-sat-long"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-22T09:00:00",
+  "type": "Ride",
+  "name": "W04 Z2 Endurance 1h30",
+  "description": "Warmup\n- 10m ramp 50-62%\n\nEndurance\n- 75m 62%\n\nCooldown\n- 5m 50%\n\nSteady Z2 (~62% FTP, HR <= ~140). Keep it boring.",
+  "external_id": "winter26-W04-sun-z2"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-23T12:00:00",
+  "type": "Run",
+  "name": "W05 Mon Easy Run 30min",
+  "description": "Easy run\n- 30m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead.",
+  "external_id": "winter26-W05-mon-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-24T17:30:00",
+  "type": "Ride",
+  "name": "W05 Sweet Spot 2x30",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nSweet spot 2x\n- 30m 90%\n- 5m 55%\n\nEndurance\n- 3m 62%\n\nCooldown\n- 5m 50%\n\nSweet spot = ~90% FTP. Steady, controlled; fuel the session.",
+  "external_id": "winter26-W05-tue-ss"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-25T12:00:00",
+  "type": "Run",
+  "name": "W05 Wed Easy Run 40min",
+  "description": "Easy run\n- 40m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead.",
+  "external_id": "winter26-W05-wed-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-26T17:30:00",
+  "type": "Ride",
+  "name": "W05 Threshold 3x10",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nThreshold 3x\n- 10m 98%\n- 5m 55%\n\nEndurance\n- 8m 62%\n\nCooldown\n- 5m 50%\n\nThreshold ~98% FTP: hard but repeatable, hold even power.",
+  "external_id": "winter26-W05-thu"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-27T12:00:00",
+  "type": "Run",
+  "name": "W05 Fri Easy Run 30min",
+  "description": "Easy run\n- 30m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead.",
+  "external_id": "winter26-W05-fri-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-28T09:00:00",
+  "type": "Ride",
+  "name": "W05 Long Ride 3h00 + SS 2x20",
+  "description": "Warmup\n- 15m ramp 50-65%\n\nEndurance\n- 45m 62%\n\nSweet spot 2x\n- 20m 90%\n- 5m 62%\n\nEndurance\n- 65m 62%\n\nCooldown\n- 5m 50%\n\nMostly endurance (~62% FTP, HR <= ~140) with sweet spot blocks late in the ride. Eat and drink every 20 min.",
+  "external_id": "winter26-W05-sat-long"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-29T09:00:00",
+  "type": "Ride",
+  "name": "W05 Z2 Endurance 2h15",
+  "description": "Warmup\n- 10m ramp 50-62%\n\nEndurance\n- 120m 62%\n\nCooldown\n- 5m 50%\n\nSteady Z2 (~62% FTP, HR <= ~140). Keep it boring.",
+  "external_id": "winter26-W05-sun-z2"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-11-30T12:00:00",
+  "type": "Run",
+  "name": "W06 Mon Easy Run 35min",
+  "description": "Easy run\n- 35m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead.",
+  "external_id": "winter26-W06-mon-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-01T17:30:00",
+  "type": "Ride",
+  "name": "W06 Sweet Spot 2x35",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nSweet spot 2x\n- 35m 90%\n- 5m 55%\n\nCooldown\n- 5m 50%\n\nSweet spot = ~90% FTP. Steady, controlled; fuel the session.",
+  "external_id": "winter26-W06-tue-ss"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-02T12:00:00",
+  "type": "Run",
+  "name": "W06 Wed Easy Run 45min",
+  "description": "Easy run\n- 45m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead.",
+  "external_id": "winter26-W06-wed-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-03T17:30:00",
+  "type": "Ride",
+  "name": "W06 Threshold 4x10",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nThreshold 4x\n- 10m 98%\n- 5m 55%\n\nCooldown\n- 5m 50%\n\nThreshold ~98% FTP: hard but repeatable, hold even power.",
+  "external_id": "winter26-W06-thu"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-04T12:00:00",
+  "type": "Run",
+  "name": "W06 Fri Easy Run 30min",
+  "description": "Easy run\n- 30m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead.",
+  "external_id": "winter26-W06-fri-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-05T09:00:00",
+  "type": "Ride",
+  "name": "W06 Long Ride 3h15 + SS 2x25",
+  "description": "Warmup\n- 15m ramp 50-65%\n\nEndurance\n- 45m 62%\n\nSweet spot 2x\n- 25m 90%\n- 5m 62%\n\nEndurance\n- 70m 62%\n\nCooldown\n- 5m 50%\n\nMostly endurance (~62% FTP, HR <= ~140) with sweet spot blocks late in the ride. Eat and drink every 20 min.",
+  "external_id": "winter26-W06-sat-long"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-06T09:00:00",
+  "type": "Ride",
+  "name": "W06 Z2 Endurance 2h30",
+  "description": "Warmup\n- 10m ramp 50-62%\n\nEndurance\n- 135m 62%\n\nCooldown\n- 5m 50%\n\nSteady Z2 (~62% FTP, HR <= ~140). Keep it boring.",
+  "external_id": "winter26-W06-sun-z2"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-07T12:00:00",
+  "type": "Run",
+  "name": "W07 Mon Easy Run 35min",
+  "description": "Easy run\n- 35m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead.",
+  "external_id": "winter26-W07-mon-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-08T17:30:00",
+  "type": "Ride",
+  "name": "W07 Sweet Spot 3x25",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nSweet spot 3x\n- 25m 90%\n- 5m 55%\n\nCooldown\n- 5m 50%\n\nSweet spot = ~90% FTP. Steady, controlled; fuel the session.",
+  "external_id": "winter26-W07-tue-ss"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-09T12:00:00",
+  "type": "Run",
+  "name": "W07 Wed Easy Run 50min",
+  "description": "Easy run\n- 50m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead.",
+  "external_id": "winter26-W07-wed-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-10T17:30:00",
+  "type": "Ride",
+  "name": "W07 Threshold 5x10",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nThreshold 5x\n- 10m 98%\n- 5m 55%\n\nCooldown\n- 5m 50%\n\nThreshold ~98% FTP: hard but repeatable, hold even power.",
+  "external_id": "winter26-W07-thu"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-11T12:00:00",
+  "type": "Run",
+  "name": "W07 Fri Easy Run 35min",
+  "description": "Easy run\n- 35m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead.",
+  "external_id": "winter26-W07-fri-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-12T09:00:00",
+  "type": "Ride",
+  "name": "W07 Long Ride 3h30 + SS 3x20",
+  "description": "Warmup\n- 15m ramp 50-65%\n\nEndurance\n- 45m 62%\n\nSweet spot 3x\n- 20m 90%\n- 5m 62%\n\nEndurance\n- 70m 62%\n\nCooldown\n- 5m 50%\n\nMostly endurance (~62% FTP, HR <= ~140) with sweet spot blocks late in the ride. Eat and drink every 20 min.",
+  "external_id": "winter26-W07-sat-long"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-13T09:00:00",
+  "type": "Ride",
+  "name": "W07 Z2 Endurance 2h30",
+  "description": "Warmup\n- 10m ramp 50-62%\n\nEndurance\n- 135m 62%\n\nCooldown\n- 5m 50%\n\nSteady Z2 (~62% FTP, HR <= ~140). Keep it boring.",
+  "external_id": "winter26-W07-sun-z2"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-14T12:00:00",
+  "type": "Run",
+  "name": "W08 Mon Easy Run 30min",
+  "description": "Easy run\n- 30m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead. Deload week: keep it relaxed.",
+  "external_id": "winter26-W08-mon-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-15T17:30:00",
+  "type": "Ride",
+  "name": "W08 Sweet Spot 2x20",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nSweet spot 2x\n- 20m 90%\n- 5m 55%\n\nCooldown\n- 5m 50%\n\nSweet spot = ~90% FTP. Steady, controlled; fuel the session.",
+  "external_id": "winter26-W08-tue-ss"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-16T12:00:00",
+  "type": "Run",
+  "name": "W08 Wed Easy Run 40min",
+  "description": "Easy run\n- 40m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead. Deload week: keep it relaxed.",
+  "external_id": "winter26-W08-wed-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-17T17:30:00",
+  "type": "Ride",
+  "name": "W08 Easy Spin 45",
+  "description": "Easy spin\n- 5m ramp 45-55%\n- 40m 55%\n\nEasy spin, legs only. HR well below Z2 ceiling.",
+  "external_id": "winter26-W08-thu"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-18T12:00:00",
+  "type": "Run",
+  "name": "W08 Fri Easy Run 30min",
+  "description": "Easy run\n- 30m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead. Deload week: keep it relaxed.",
+  "external_id": "winter26-W08-fri-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-19T09:00:00",
+  "type": "Ride",
+  "name": "W08 Long Ride 2h15 (Z2 deload)",
+  "description": "Warmup\n- 15m ramp 50-65%\n\nEndurance\n- 115m 62%\n\nCooldown\n- 5m 50%\n\nMostly endurance (~62% FTP, HR <= ~140) with sweet spot blocks late in the ride. Eat and drink every 20 min.",
+  "external_id": "winter26-W08-sat-long"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-20T09:00:00",
+  "type": "Ride",
+  "name": "W08 Z2 Endurance 1h30",
+  "description": "Warmup\n- 10m ramp 50-62%\n\nEndurance\n- 75m 62%\n\nCooldown\n- 5m 50%\n\nSteady Z2 (~62% FTP, HR <= ~140). Keep it boring.",
+  "external_id": "winter26-W08-sun-z2"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-21T12:00:00",
+  "type": "Run",
+  "name": "W09 Mon Easy Run 40min",
+  "description": "Easy run\n- 40m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead.",
+  "external_id": "winter26-W09-mon-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-22T17:30:00",
+  "type": "Ride",
+  "name": "W09 Sweet Spot 2x40",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nSweet spot 2x\n- 40m 90%\n- 5m 55%\n\nCooldown\n- 5m 50%\n\nSweet spot = ~90% FTP. Steady, controlled; fuel the session.",
+  "external_id": "winter26-W09-tue-ss"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-23T12:00:00",
+  "type": "Run",
+  "name": "W09 Wed Easy Run 55min",
+  "description": "Easy run\n- 55m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead.",
+  "external_id": "winter26-W09-wed-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-24T17:30:00",
+  "type": "Ride",
+  "name": "W09 VO2 5x5",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nVO2 intervals 5x\n- 5m 110%\n- 4m 50%\n\nEndurance\n- 13m 62%\n\nCooldown\n- 5m 50%\n\nVO2 ~110% FTP. Finish each rep with 1 in the tank; stop the set if power fades >5%.",
+  "external_id": "winter26-W09-thu"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-25T12:00:00",
+  "type": "Run",
+  "name": "W09 Fri Easy Run 35min",
+  "description": "Easy run\n- 35m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead.",
+  "external_id": "winter26-W09-fri-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-26T09:00:00",
+  "type": "Ride",
+  "name": "W09 Long Ride 3h15 + SS 2x25",
+  "description": "Warmup\n- 15m ramp 50-65%\n\nEndurance\n- 45m 62%\n\nSweet spot 2x\n- 25m 90%\n- 5m 62%\n\nEndurance\n- 70m 62%\n\nCooldown\n- 5m 50%\n\nMostly endurance (~62% FTP, HR <= ~140) with sweet spot blocks late in the ride. Eat and drink every 20 min.",
+  "external_id": "winter26-W09-sat-long"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-27T09:00:00",
+  "type": "Ride",
+  "name": "W09 Z2 Endurance 2h30",
+  "description": "Warmup\n- 10m ramp 50-62%\n\nEndurance\n- 135m 62%\n\nCooldown\n- 5m 50%\n\nSteady Z2 (~62% FTP, HR <= ~140). Keep it boring.",
+  "external_id": "winter26-W09-sun-z2"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-28T12:00:00",
+  "type": "Run",
+  "name": "W10 Mon Easy Run 40min",
+  "description": "Easy run\n- 40m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead.",
+  "external_id": "winter26-W10-mon-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-29T17:30:00",
+  "type": "Ride",
+  "name": "W10 Sweet Spot 3x30",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nSweet spot 3x\n- 30m 90%\n- 5m 55%\n\nCooldown\n- 5m 50%\n\nSweet spot = ~90% FTP. Steady, controlled; fuel the session.",
+  "external_id": "winter26-W10-tue-ss"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-30T12:00:00",
+  "type": "Run",
+  "name": "W10 Wed Easy Run 60min",
+  "description": "Easy run\n- 60m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead.",
+  "external_id": "winter26-W10-wed-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2026-12-31T17:30:00",
+  "type": "Ride",
+  "name": "W10 VO2 5x5",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nVO2 intervals 5x\n- 5m 110%\n- 4m 50%\n\nEndurance\n- 13m 62%\n\nCooldown\n- 5m 50%\n\nVO2 ~110% FTP. Finish each rep with 1 in the tank; stop the set if power fades >5%.",
+  "external_id": "winter26-W10-thu"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2027-01-01T12:00:00",
+  "type": "Run",
+  "name": "W10 Fri Easy Run 40min",
+  "description": "Easy run\n- 40m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead.",
+  "external_id": "winter26-W10-fri-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2027-01-02T09:00:00",
+  "type": "Ride",
+  "name": "W10 Long Ride 3h30 + SS 3x20",
+  "description": "Warmup\n- 15m ramp 50-65%\n\nEndurance\n- 45m 62%\n\nSweet spot 3x\n- 20m 90%\n- 5m 62%\n\nEndurance\n- 70m 62%\n\nCooldown\n- 5m 50%\n\nMostly endurance (~62% FTP, HR <= ~140) with sweet spot blocks late in the ride. Eat and drink every 20 min.",
+  "external_id": "winter26-W10-sat-long"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2027-01-03T09:00:00",
+  "type": "Ride",
+  "name": "W10 Z2 Endurance 2h30",
+  "description": "Warmup\n- 10m ramp 50-62%\n\nEndurance\n- 135m 62%\n\nCooldown\n- 5m 50%\n\nSteady Z2 (~62% FTP, HR <= ~140). Keep it boring.",
+  "external_id": "winter26-W10-sun-z2"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2027-01-04T12:00:00",
+  "type": "Run",
+  "name": "W11 Mon Easy Run 45min",
+  "description": "Easy run\n- 45m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead.",
+  "external_id": "winter26-W11-mon-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2027-01-05T17:30:00",
+  "type": "Ride",
+  "name": "W11 Sweet Spot 1x90",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nSweet spot\n- 90m 90%\n\nCooldown\n- 5m 50%\n\nSweet spot = ~90% FTP. Steady, controlled; fuel the session.",
+  "external_id": "winter26-W11-tue-ss"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2027-01-06T12:00:00",
+  "type": "Run",
+  "name": "W11 Wed Easy Run 65min",
+  "description": "Easy run\n- 65m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead.",
+  "external_id": "winter26-W11-wed-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2027-01-07T17:30:00",
+  "type": "Ride",
+  "name": "W11 VO2 6x5",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nVO2 intervals 6x\n- 5m 110%\n- 4m 50%\n\nEndurance\n- 4m 62%\n\nCooldown\n- 5m 50%\n\nVO2 ~110% FTP. Finish each rep with 1 in the tank; stop the set if power fades >5%.",
+  "external_id": "winter26-W11-thu"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2027-01-08T12:00:00",
+  "type": "Run",
+  "name": "W11 Fri Easy Run 40min",
+  "description": "Easy run\n- 40m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead.",
+  "external_id": "winter26-W11-fri-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2027-01-09T09:00:00",
+  "type": "Ride",
+  "name": "W11 Long Ride 3h30 + SS 2x30",
+  "description": "Warmup\n- 15m ramp 50-65%\n\nEndurance\n- 50m 62%\n\nSweet spot 2x\n- 30m 90%\n- 5m 62%\n\nEndurance\n- 70m 62%\n\nCooldown\n- 5m 50%\n\nMostly endurance (~62% FTP, HR <= ~140) with sweet spot blocks late in the ride. Eat and drink every 20 min.",
+  "external_id": "winter26-W11-sat-long"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2027-01-10T09:00:00",
+  "type": "Ride",
+  "name": "W11 Z2 Endurance 2h30",
+  "description": "Warmup\n- 10m ramp 50-62%\n\nEndurance\n- 135m 62%\n\nCooldown\n- 5m 50%\n\nSteady Z2 (~62% FTP, HR <= ~140). Keep it boring.",
+  "external_id": "winter26-W11-sun-z2"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2027-01-11T12:00:00",
+  "type": "Run",
+  "name": "W12 Mon Easy Run 35min",
+  "description": "Easy run\n- 35m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead. Deload week: keep it relaxed.",
+  "external_id": "winter26-W12-mon-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2027-01-12T17:30:00",
+  "type": "Ride",
+  "name": "W12 Sweet Spot 2x20",
+  "description": "Warmup\n- 12m ramp 50-75%\n\nSweet spot 2x\n- 20m 90%\n- 5m 55%\n\nCooldown\n- 5m 50%\n\nSweet spot = ~90% FTP. Steady, controlled; fuel the session.",
+  "external_id": "winter26-W12-tue-ss"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2027-01-13T12:00:00",
+  "type": "Run",
+  "name": "W12 Wed Easy Run 45min",
+  "description": "Easy run\n- 45m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead. Deload week: keep it relaxed.",
+  "external_id": "winter26-W12-wed-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2027-01-14T17:30:00",
+  "type": "Ride",
+  "name": "W12 Easy Spin 45",
+  "description": "Easy spin\n- 5m ramp 45-55%\n- 40m 55%\n\nEasy spin, legs only. HR well below Z2 ceiling.",
+  "external_id": "winter26-W12-thu"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2027-01-15T12:00:00",
+  "type": "Run",
+  "name": "W12 Fri Easy Run 35min",
+  "description": "Easy run\n- 35m 50-73% HR\n\nConversational effort, nose-breathing pace. HR ceiling ~148 bpm; pace roughly 10:45-11:30/mi but let HR lead. Deload week: keep it relaxed.",
+  "external_id": "winter26-W12-fri-run"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2027-01-16T09:00:00",
+  "type": "Ride",
+  "name": "W12 Long Ride 2h15 (Z2 deload)",
+  "description": "Warmup\n- 15m ramp 50-65%\n\nEndurance\n- 115m 62%\n\nCooldown\n- 5m 50%\n\nMostly endurance (~62% FTP, HR <= ~140) with sweet spot blocks late in the ride. Eat and drink every 20 min.",
+  "external_id": "winter26-W12-sat-long"
+ },
+ {
+  "category": "WORKOUT",
+  "start_date_local": "2027-01-17T09:00:00",
+  "type": "Ride",
+  "name": "W12 Z2 Endurance 1h30",
+  "description": "Warmup\n- 10m ramp 50-62%\n\nEndurance\n- 75m 62%\n\nCooldown\n- 5m 50%\n\nSteady Z2 (~62% FTP, HR <= ~140). Keep it boring.",
+  "external_id": "winter26-W12-sun-z2"
+ }
+]
