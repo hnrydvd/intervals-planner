@@ -14,6 +14,7 @@ An example 12-week winter base plan for cyclists who want to ride indoors on wee
 | `intervals_plan_12wk.json` | All 84 workouts (dates, names, workout text, IDs). Source of truth for the scripts. |
 | `upload_to_intervals.py` | Adds the workouts to your intervals.icu calendar via the API. Skips ones already there. |
 | `update_intervals.py` | Rewrites descriptions of workouts already in your calendar when the JSON changes. |
+| `delete_intervals.py` | Bulk deletes training blocks from your calendar by workout ID prefix. |
 | `plan_overview.csv` | One row per session (date, day, type, name, minutes) for a quick overview. |
 
 ## Weekly structure
@@ -116,6 +117,19 @@ Keep the shift a multiple of 7 so the weekly structure stays on the right days.
    ```
 
 `--match` filters on the workout ID (`-run`, `-ss`, `-thu`, `-sat-long`, `-sun-z2`). Omit it to update every workout whose text differs. The update overwrites matched descriptions, including any edits you made by hand in intervals.icu.
+
+### Deleting a training block
+
+Preview, then delete every workout whose ID starts with the given prefix:
+
+```
+python3 delete_intervals.py --prefix winter26- --dry-run
+python3 delete_intervals.py --prefix winter26-
+```
+
+The script lists the matches and asks you to type `delete` before removing anything (`--yes` skips this). Pass several prefixes to remove several blocks at once, use a longer prefix such as `winter26-W09` for a single week, or add `--from 2026-11-09` to keep everything before a date.
+
+Only workouts with a matching ID are deleted, so workouts you added by hand and completed activities stay in place. Deleting can't be undone, but `upload_to_intervals.py` can re-add anything still in the plan JSON.
 
 ### Workout IDs
 
